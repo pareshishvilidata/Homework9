@@ -1,0 +1,51 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section1 {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/sec1backimg.png");
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 55px;
+}
+
+li {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+i {
+    color: #FFFFFF;
+}
+
+.headbutton {
+    display: none;
+}
+
+.sec1text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #C0B4B4;
+    padding-top: 325px;
+}
