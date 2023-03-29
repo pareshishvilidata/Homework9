@@ -1,0 +1,37 @@
+@media (max-width: 480px) {
+    nav {
+        display: none;
+    }
+
+    .headbutton {
+        display: block;
+    }
+
+    .cards {
+        display: block;
+        text-align: center;
+    }
+
+    .articlediv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articleimg {
+        width: 420px;
+        height: 280px;
+    }
+
+    .art_text_div {
+        width: 420px;
+        height: 280px;
+    }
+
+    .footerlogo {
+        display: none;
+    }
+
+    .footerdiv {
+        padding-right: 160px;
+    }
+}
