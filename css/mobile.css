@@ -1,4 +1,6 @@
 @media (max-width: 480px) {
+
+    /* ჰედერი */
     nav {
         display: none;
     }
@@ -7,11 +9,13 @@
         display: block;
     }
 
+    /* სექცია2 */
     .cards {
         display: block;
         text-align: center;
     }
 
+    /* არტიკლი */
     .articlediv {
         display: flex;
         flex-direction: column;
@@ -27,6 +31,7 @@
         height: 280px;
     }
 
+    /* ფუტერი */
     .footerlogo {
         display: none;
     }
